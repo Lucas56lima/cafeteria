@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Brasil</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Dancing+Script&family=Gajraj+One&family=Great+Vibes&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+    <div id="cabecalho">
+        <a href="#" class="abrirmenu" onclick="abrir();"  > &equiv; </a>
+
+        <div id="superior">
+        <h1>Cafeteria Brasil</h1>
+        <nav>
+            <a href="#" class="fecharmenu" onclick="fechar();"> &times; </a>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="menu.html">menu</a></li>
+                <li><a href="quemsomos.html">quem somos</a></li>
+                <li><a href="localizacao.html">localização</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+        </nav>
+        <div id="whatsapp">
+            
+            <a href="#">Faça o seu pedido</a>
+        </div>
+    </div>
+        <h2>Venha provar o nosso Café</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla ea dolor cum facere reiciendis, laborum velit laudantium nemo repellat sit inventore odit quibusdam asperiores animi assumenda eveniet aliquam modi quidem?</p>
+
+    </div>
+
+    </header>
+    <main>
+
+        <h2>Seja bem vindo à nossa Cafeteria</h2>
+        <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem placeat similique, quos neque consequatur modi necessitatibus totam, quibusdam nemo esse corrupti nobis animi vitae soluta laborum excepturi molestiae voluptates ea.</span><span>Iure deleniti fugit doloribus enim natus nobis, molestiae velit iusto expedita, accusamus maiores exercitationem temporibus. Quis aliquam sint laborum eligendi cumque autem magnam vitae, corrupti dolore recusandae nesciunt. Consectetur, suscipit?</span><span>Laudantium reiciendis, tempore eaque exercitationem accusamus dolore culpa eius accusantium rerum adipisci molestiae, nesciunt voluptatem voluptate fugiat sit mollitia doloremque nulla, aspernatur possimus. A, nesciunt rem unde perferendis dolore quae!</span></p>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, minima! Ipsum voluptatum itaque rem repellat consectetur minus quia? Officia voluptatem reiciendis architecto consequuntur at explicabo molestias minima commodi quisquam sed.</span><span>Libero laboriosam repellat dolorum quaerat debitis vitae explicabo vero enim sunt exercitationem eaque unde dignissimos consequatur, veritatis in, sed totam delectus nostrum labore sint harum illum officiis doloribus eum! Possimus?</span><span>Dolorem, excepturi. Illo mollitia autem nobis suscipit. Quisquam, recusandae explicabo. Deleniti earum tempore nobis nam libero a minima omnis unde quo, ipsa quibusdam blanditiis aliquid corrupti maiores id odit. Doloremque!</span></p>
+        
+        <div id="imghome">
+            <img src="img/tomarcafe2.jpg" alt="Uma mulher tomando café">
+            <img src="img/tomarcafe4.jpg" alt="Um homem e uma mulher tomando café">
+        </div>
+          
+
+
+        
+
+
+    </main>
+    <footer>
+    <div id="endereco">
+        <p>Rua José de Oliveira, 23 Vila Holanda - São Paulo - SP</p>
+        <p>Tel:. 11 - 5236-1969 | 11 - 5369-6985</p>
+    </div>   
+    <div id="redes">
+        <nav>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"></a></li>
+                <li><a href="https://www.instagram.com" target= "_blank"><img src="img/instagram.png" alt="instagram"></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><img src="img/youtube.png" alt="linkedin"></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    </footer>
+
+    <script>
+        function abrir(){
+        document.getElementsByTagName("nav")[0].style.left="0px";
+        }
+
+        function fechar(){
+
+            document.getElementsByTagName("nav")[0].style.left="-210px";
+        }
+    </script>
+
+
+</body>
+</html>
